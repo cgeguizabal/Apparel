@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
+  background-color: $color_gradient_primary_to;
   //   Weights: 300, 400, 600
 }
 
@@ -74,11 +75,11 @@ body {
         color: $color_light_red_primary;
         text-transform: uppercase;
         letter-spacing: 12px;
-        font-size: 6rem;
+        font-size: 7.5rem;
       }
 
       &--span-2 {
-        font-size: 6rem;
+        font-size: 7.5rem;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 12px;
