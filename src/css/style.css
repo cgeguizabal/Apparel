@@ -182,4 +182,6 @@ body {
   .content_left--text {
     margin-top: 16rem; }
   .content_left--content {
-    margin-right: 20rem; } }
+    margin-right: 20rem; }
+  .attribution {
+    margin-top: 25rem !important; } }
