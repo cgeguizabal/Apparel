@@ -13,11 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
-  background-image: linear-gradient(
-    to right,
-    $color_gradient_primary_to,
-    $color_gradient_primary_from
-  );
+  background-color: $color_gradient_primary_to;
   //   Weights: 300, 400, 600
 }
 
