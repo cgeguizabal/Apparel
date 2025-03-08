@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 5rem;
+      }
+      .attribution a {
+        color: hsl(0, 93%, 68%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main_container">
+      <div class="content_left">
+        <div class="content_left--content">
+          <header class="header_container">
+            <img src="logo.svg" alt="logo" class="content_left--header_img" />
+          </header>
+          <div class="heroImg_Mobile--container">
+            <img src="hero-mobile.jpg" class="heroImg_Mobile" alt="img" />
+          </div>
+          <div class="content_left--text">
+            <h1 class="content_left--text--title">
+              <span class="content_left--text--title--span-1">We're </span
+              ><span class="content_left--text--title--span-2">coming</span>
+              <span class="content_left--text--title--span-2"> soon</span>
+            </h1>
+            <p class="content_left--text--p">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+            <form class="form">
+              <div class="input">
+                <input
+                  class="input--element"
+                  type="text"
+                  placeholder="Email Address"
+                />
+                <img src="" class="input--icon_Error" />
+
+                <button type="submit" class="input--btn">
+                  <img
+                    class="input--icon"
+                    src="icon-arrow.svg"
+                    alt="icon-arrow"
+                  />
+                </button>
+              </div>
+              <span id="emailError" class="input--error_message"></span>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="content_right">
+        <img src="hero-desktop.jpg" alt="image" class="content_right--img" />
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/cgeguizabal"
+          >Guillermo Eguizabal</a
+        >.
+      </p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
